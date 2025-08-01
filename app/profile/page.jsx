@@ -39,13 +39,13 @@ const page = async () => {
   let username = x[0];
 
   return (
-    <main className="min-h-dvh">
+    <main className="min-h-dvh z-20">
       <section className="">
         <div className="h-[30vh] bg-[url('/wavy.png')] bg-no-repeat bg-center bg-cover relative">
           <img
             src={session?.user?.image}
             alt={session?.user?.name.slice(0, 1).toUpperCase()}
-            className="w-40 h-40 rounded-full absolute -bottom-[50%] left-[45%]"
+            className="w-40 h-40 rounded-full md:absolute -bottom-[50%] left-[45%]"
           />
         </div>
         <div className="mt-30 space-y-10">

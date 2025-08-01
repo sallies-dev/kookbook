@@ -58,7 +58,7 @@ const ProfileRecipes = ({ session }) => {
   }
   return (
     <main>
-      <div className="border-b border-gray-200 mb-10 pt-10">
+      <div className="border-b border-gray-200 mb-10 pt-10 z-20">
         <h1 className="text-center font-bold text-gray-800">Recipes</h1>
       </div>
       <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-10 md:p-10 p-3">

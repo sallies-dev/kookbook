@@ -40,7 +40,7 @@ const Nav = () => {
 
 
   return (
-    <nav className="flex items-center justify-between shadow-md py-3 px-6 relative">
+    <nav className="flex items-center justify-between shadow-md py-3 px-6 relative z-50">
       <Link href={"/"} className="flex items-center gap-1 z-50">
         <Image
           src={"/logo.png"}
