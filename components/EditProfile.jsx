@@ -18,8 +18,8 @@ const EditProfile = ({ currentName, userId }) => {
   };
 
   return (
-    <main>
-      <div className="w-2xl mx-auto flex flex-col gap-2 mt-3">
+    <main className="p-3">
+      <div className=" lg:w-2xl w-full mx-auto flex flex-col gap-2 mt-3">
         <input
           onChange={(e) => setName(e.target.value)}
           value={name}

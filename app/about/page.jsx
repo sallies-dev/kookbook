@@ -4,7 +4,7 @@ import React from "react";
 const page = () => {
   return (
     <main className="min-h-dvh p-5">
-      <section className="grid grid-cols-2 gap-3 items-center">
+      <section className="grid lg:grid-cols-2 gap-3 items-center">
         <div className="space-y-5">
           <h1 className="text-4xl font-bold text-gray-900">Who We Are</h1>
           <p> Welcome to Kookbook — your digital kitchen companion!</p>

@@ -38,7 +38,7 @@ const page = async ({ params }) => {
       </div>
     );
   }
-  console.log(recData);
+  // console.log(recData);
 
   return (
     <div className="min-h-dvh lg:px-20 lg:py-10 p-5 space-y-5">

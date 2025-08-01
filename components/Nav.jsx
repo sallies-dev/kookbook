@@ -34,7 +34,7 @@ const Nav = () => {
   const navItems = [
     { url: "/", label: "Home" },
     { url: "/about", label: "About Us" },
-    { url: "/faqs", label: "FAQs" },
+    { url: "/faq", label: "FAQs" },
     { url: "/recipes", label: "Recipes" },
   ];
 
